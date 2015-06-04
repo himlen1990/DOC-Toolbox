@@ -44,6 +44,9 @@ function mod = tr(meth,tr,l,set)
             m.Lo=l(2);
             m.init = 1;
             m.iter = 10;
+            if isfield(set,'parallel')
+                m.PARALLEL=set.parallel;
+            end
             mod = m.train(tr);
             m.O_init = mod.O_out;
             m.init = 0;
