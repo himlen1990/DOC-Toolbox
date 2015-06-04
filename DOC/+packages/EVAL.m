@@ -48,6 +48,7 @@ function [res y_hat] = get_metrics(pr,gt)
 
     [~, y_hat] = max(pr);
 
+
     % compute F1
     for i = unique(gt)
         TP = sum( (gt==i) .* (y_hat==i) );
@@ -77,7 +78,9 @@ function [res y_hat] = get_metrics(pr,gt)
     % root mean square error 
     res.RMS = mean((gt-y_hat).^2);
 
-    % compute confusion matrix
-    res.CM = confusionmat(gt,y_hat);
+    % compute confusion matrix 
+    y_hat_ = num2cell( num2str(y_hat) );
+    gt_ = num2cell( num2str(gt) );
+    res.CM = confusionmat(gt_,y_hat_);
 
 end
