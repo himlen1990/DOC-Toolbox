@@ -18,7 +18,7 @@ This Toolbox is a collection of open source functions implemented in Matlab.
 
 ```sh
 
-$ git clone git@github.com:RWalecki/VSL-CRF.git VSL-CRF
+$ git clone git@github.com:RWalecki/DOC.git
 
 ```
 
