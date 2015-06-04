@@ -1,4 +1,4 @@
-cd 'seq_classify/+inference/'
+cd 'DOC/+inference/'
 
     ls
     switch computer
