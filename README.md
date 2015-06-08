@@ -48,7 +48,7 @@ _[*] Walecki, Robert, et al. "Variable-state Latent Conditional Random Fields fo
 
 
 
-The file '__DEMO_VSL_CORF.m__' contains an example of how to train the CORF [**] model and use it to predict sequence (class) labels.
+The file '__DEMO_CORF.m__' contains an example of how to train the CORF [**] model and use it to predict sequence (class) labels.
 
 
 
