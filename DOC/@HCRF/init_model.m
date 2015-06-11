@@ -13,6 +13,6 @@ function O = init_model(obj,F,H,N)
 
     for y_=1:N;
         O{y_}=init_model@MLR(obj,F,H);
-        O{y_}.u=zeros(H);
+        O{y_}.u=rand(H);
     end
 end
