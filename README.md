@@ -182,7 +182,8 @@ In this example, VSL_CRF is trained. Other models can be selected by simply repl
 
 see: 
 
-*Kim, Minyoung, and Vladimir Pavlovic. "Structured output ordinal regression for dynamic facial emotion intensity prediction." Computer Vision ECCV 2010. Springer Berlin Heidelberg, 2010. 649-662.*
+*K. Minyoung and V. Pavlovic. "Structured output ordinal regression for dynamic facial emotion intensity prediction." European Conference on Computer Vision (ECCV). Springer Berlin Heidelberg, pp. 649-662. 2010.*
+
 
 
 
@@ -216,10 +217,7 @@ see:
 
 see: 
 
-*Walecki, Robert, et al. "Variable-state Latent Conditional Random Fields for Facial Expression Recognition and Action Unit Detection." Proceedings of IEEE: 1-8.*
-
-
-
+*R. Walecki, O. Rudovic, V. Pavlovic, M. Pantic. "Variable-state Latent Conditional Random Fields for Facial Expression Recognition and Action Unit Detection",  Proceedings of IEEE International Conference on Automatic Face and Gesture Recognition (FG'15). pp. 1 - 8, 2015.*
 ---------------------------------
 
 
