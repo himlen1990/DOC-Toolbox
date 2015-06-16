@@ -62,7 +62,7 @@ The file '__DEMO_cross_validation_ck.m__' contains a script that applies a 3-fol
 
 The file '__DEMO_cross_validation_syn.m__' contains a script that applies a 3-fold cross-validation on synthetic data for different methods.
 
-_[*] Walecki, O. Rudovic, V. Pavlovic, M. Pantic. "Variable-state Latent Conditional Random Fields for Facial Expression Recognition and Action Unit Detection",  Proceedings of IEEE International Conference on Automatic Face and Gesture Recognition (FG'15). pp. 1 - 8, 2015._
+_[*] R. Walecki, O. Rudovic, V. Pavlovic, M. Pantic. "Variable-state Latent Conditional Random Fields for Facial Expression Recognition and Action Unit Detection",  Proceedings of IEEE International Conference on Automatic Face and Gesture Recognition (FG'15). pp. 1 - 8, 2015._
 
 _[**] K. Minyoung and V. Pavlovic. "Structured output ordinal regression for dynamic facial emotion intensity prediction." European Conference on Computer Vision (ECCV). Springer Berlin Heidelberg, pp. 649-662. 2010._
 

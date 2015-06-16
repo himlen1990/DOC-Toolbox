@@ -2,6 +2,9 @@ function data = READ_TRACKER(in_path)
 
     txt_files = {};
     tmp = {};
+    if in_path(end)~='/'
+        in_path(end+1)='/';
+    end
     files = dir([in_path,'*.txt']);
 
     for file = files'
@@ -15,7 +18,7 @@ function data = READ_TRACKER(in_path)
 
     txt_files = sort(txt_files);
     Landmarks = {};
-    FrameID = {}
+    FrameID = {};
     for i = 1:length(txt_files)
         file = txt_files{i};
         fileID = fopen(file,'r');
