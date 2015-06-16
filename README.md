@@ -22,7 +22,7 @@ $ git clone git@github.com:RWalecki/DOC.git
 
 ```
 
-#### 2) Go to the working directory (Dynamic_Ordinal_Classification folder) and compile the c files by simply executing the make script
+#### 2) Go to the working directory ('DOC' folder) and compile the c files by simply executing the make script
 
 ```matlab
 
@@ -44,7 +44,6 @@ The file '__DEMO_VSL_CRF.m__' contains an example of how to train the VSL_CRF [*
 
 
 
-_[*] Walecki, Robert, et al. "Variable-state Latent Conditional Random Fields for Facial Expression Recognition and Action Unit Detection." Proceedings of IEEE: 1-8._
 
 
 
@@ -52,7 +51,6 @@ The file '__DEMO_CORF.m__' contains an example of how to train the CORF [**] mod
 
 
 
-_[**] Kim, Minyoung, and Vladimir Pavlovic. "Structured output ordinal regression for dynamic facial emotion intensity prediction." Computer Vision ECCV 2010. Springer Berlin Heidelberg, 2010. 649-662._
 
  
 
@@ -64,7 +62,9 @@ The file '__DEMO_cross_validation_ck.m__' contains a script that applies a 3-fol
 
 The file '__DEMO_cross_validation_syn.m__' contains a script that applies a 3-fold cross-validation on synthetic data for different methods.
 
+_[*] Walecki, O. Rudovic, V. Pavlovic, M. Pantic. "Variable-state Latent Conditional Random Fields for Facial Expression Recognition and Action Unit Detection",  Proceedings of IEEE International Conference on Automatic Face and Gesture Recognition (FG'15). pp. 1 - 8, 2015._
 
+_[**] K. Minyoung and V. Pavlovic. "Structured output ordinal regression for dynamic facial emotion intensity prediction." European Conference on Computer Vision (ECCV). Springer Berlin Heidelberg, pp. 649-662. 2010._
 
 
 
@@ -76,7 +76,7 @@ The file '__DEMO_cross_validation_syn.m__' contains a script that applies a 3-fo
 
 ```matlab
 
-addpath('../../Dynamic_Ordinal_Classification')          
+addpath('DOC')          
 
 ck = load('./data/ck.mat') 
 
@@ -182,7 +182,7 @@ In this example, VSL_CRF is trained. Other models can be selected by simply repl
 
 see: 
 
-*K. Minyoung and V. Pavlovic. "Structured output ordinal regression for dynamic facial emotion intensity prediction." European Conference on Computer Vision (ECCV). Springer Berlin Heidelberg, pp. 649-662. 2010.*
+* K. Minyoung and V. Pavlovic. "Structured output ordinal regression for dynamic facial emotion intensity prediction." European Conference on Computer Vision (ECCV). Springer Berlin Heidelberg, pp. 649-662. 2010.*
 
 
 
@@ -201,7 +201,7 @@ see:
 
 see:
 
-*Kim, Minyoung, and Vladimir Pavlovic. "Hidden conditional ordinal random fields for sequence classification." Machine Learning and Knowledge Discovery in Databases. Springer Berlin Heidelberg, 2010. 51-65.*
+* K, Minyoung, and V. Pavlovic. "Hidden conditional ordinal random fields for sequence classification." Machine Learning and Knowledge Discovery in Databases. Springer Berlin Heidelberg, 2010. 51-65. *
 
 
 
@@ -216,8 +216,8 @@ see:
 
 
 see: 
+* R. Walecki, O. Rudovic, V. Pavlovic, M. Pantic. "Variable-state Latent Conditional Random Fields for Facial Expression Recognition and Action Unit Detection",  Proceedings of IEEE International Conference on Automatic Face and Gesture Recognition (FG'15). pp. 1 - 8, 2015.*
 
-*R. Walecki, O. Rudovic, V. Pavlovic, M. Pantic. "Variable-state Latent Conditional Random Fields for Facial Expression Recognition and Action Unit Detection",  Proceedings of IEEE International Conference on Automatic Face and Gesture Recognition (FG'15). pp. 1 - 8, 2015.*
 ---------------------------------
 
 
