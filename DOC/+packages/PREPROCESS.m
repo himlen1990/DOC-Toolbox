@@ -2,7 +2,7 @@ function out = PREPROCESS(data,para)
     if nargin == 1
         [data img_center] = register(data);
         data = getXYdata(data);
-        [data mapping] = pca(data,25);
+        [data mapping] = pca(data,15);
         [data b s] = BVScalling(data);
         out.data = data;
         out.para.img_center = img_center;
@@ -13,7 +13,7 @@ function out = PREPROCESS(data,para)
     if nargin == 2
         [data img_center] = register(data,para.img_center);
         data = getXYdata(data);
-        [data mapping] = pca(data,25,para.mapping);
+        [data mapping] = pca(data,15,para.mapping);
         [data b s] = BVScalling(data, para.b, para.s);
         out.data = data;
     end
